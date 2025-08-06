@@ -1,4 +1,4 @@
-# Tokio Tls
+# Tokio TLS
 
 ## Overview
 
@@ -6,17 +6,18 @@ This crate is the home of the tokio-native-tls crate:
 
 - [`tokio-native-tls`](tokio-native-tls)
 
-([tokio-rustls](https://github.com/rustls/tokio-rustls) now lives in the rustls org.)
+([tokio-rustls](https://github.com/rustls/tokio-rustls) now lives in the Rustls
+org.)
 
 ## Getting Help
 
-First, see if the answer to your question can be found in the [Tutorials] or the
+First, see if the answer to your question can be found in the [tutorials] or the
 [API documentation]. If the answer is not there, there is an active community in
 the [Tokio Discord server][chat]. We would be happy to try to answer your
 question. Last, if that doesn't work, try opening an [issue] with the question.
 
-[Tutorials]: https://tokio.rs/tokio/tutorial
-[API documentation]: https://docs.rs/tokio/latest/tokio
+[tutorials]: https://tokio.rs/tokio/tutorial
+[API documentation]: https://docs.rs/tokio/latest/tokio/
 [chat]: https://discord.gg/tokio
 [issue]: https://github.com/tokio-rs/tls/issues/new
 
@@ -33,7 +34,8 @@ project.
 In addition to the crates in this repository, the Tokio project also maintains
 several other libraries, including:
 
-* [`tokio`]: A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
+* [`tokio`]: A runtime for writing reliable, asynchronous, and slim applications
+  with the Rust programming language.
 
 * [`tracing`] (formerly `tokio-trace`): A framework for application-level
   tracing and async-aware diagnostics.
@@ -63,5 +65,5 @@ This project is licensed under the [MIT license](LICENSE).
 ### Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in Tokio by you, shall be licensed as MIT, without any additional
-terms or conditions.
+for inclusion in tokio-native-tls by you, shall be licensed as MIT, without any
+additional terms or conditions.
